@@ -1,0 +1,133 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #d2fafb;
+    background-color: #393e46;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.TitleSection {
+    background-color: #393e46;
+}
+
+h1 {
+    color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    border-style: dashed;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222831;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #d65a31;
+    text-align: center;
+    color: #d2fafb;
+    padding: 30px;
+}
+
+img {
+    padding: 10px;
+}
+
+button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+a:visited {
+    color: #eeeeee;
+}
+
+a:link {
+    color: #eeeeee;
+}
+
+a:hover {
+    color: #222831;
+}
+
+#page_content {
+    padding: 30px;
+}
+
+#page_description {
+    padding-bottom: 10px;
+}
+
+#project {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px dotted #d65a31;
+    padding: 30px;
+}
+
+#nav_bar {
+    background-color: #d65a31;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#nav_bar a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav_bar li {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    float: left;
+    display: inline-block;
+}
+
+#index_lorem_ipsum a {
+    text-decoration: none;
+    color: #d2fafb;
+}
+
+#index_lorem_ipsum a:hover {
+    color: #eeeeee;
+}
+
+/*CSS for the read more button*/
+.collapsible {
+    background-color: #d65a31;
+    color: #d2fafb;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+
+.active, .collapsible:hover {
+    background-color: #222831;
+  }
+
+#more_info {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #393e46;
+  }
