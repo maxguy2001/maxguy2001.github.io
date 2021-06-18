@@ -1,14 +1,14 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #d2fafb;
-    background-color: #393e46;
+    background-color: #a9a9a9;
     max-width: 900px;
     margin: auto;
     padding: 30px;
 }
 
 .TitleSection {
-    background-color: #393e46;
+    background-color: #a9a9a9;
 }
 
 h1 {
@@ -21,6 +21,11 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h4 {
+    color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 p {
     font-family: 'Courier New', Courier, monospace;
     padding: 30px;
@@ -29,7 +34,7 @@ p {
 
 html {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #222831;
+    background-color: #000000;
 }
 
 li {
